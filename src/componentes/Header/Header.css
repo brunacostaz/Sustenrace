@@ -1,0 +1,28 @@
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #080E23;
+    box-shadow: 2px 5px 15px #000000ad;
+    z-index: 1;
+}
+
+.logo img {
+    width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    .logo img {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .logo img {
+        width: 200px;
+    }
+}
