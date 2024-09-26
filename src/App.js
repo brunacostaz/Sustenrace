@@ -2,6 +2,7 @@ import './App.css';
 import Banner from './componentes/Banner';
 import Header from './componentes/Header';
 import SessaoFormulaE from './componentes/SessaoFormulaE';
+import SessaoImpactos from './componentes/SessaoImpactos';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Banner />
       <SessaoFormulaE />
+      <SessaoImpactos />
     </div>
   );
 }
