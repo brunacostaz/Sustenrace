@@ -3,22 +3,6 @@
 .banner {
     box-sizing: border-box;
     position: relative;
-    padding-top: 4em;
-}
-
-.banner h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    color: white;
-    color: white;
-    font-size: 1.2em;
-    font-weight: 400;
-    font-family: "PT Serif", serif;
-    text-align: center;
-    z-index: 1;
 }
 
 .banner img {
@@ -26,7 +10,7 @@
     width: 100vw;
     height: auto;
     z-index: 0;
-    opacity: 40%;
+    opacity: 95%;
 }
 
 @media screen and (min-width: 768px) {
