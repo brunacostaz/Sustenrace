@@ -5,8 +5,8 @@ header {
     justify-content: space-between;
     padding: 0 1em;
     width: 100vw;
+    background-color: #ffffff11;
     box-sizing: border-box;
-    background-color: #080E23;
     box-shadow: 2px 5px 15px #000000ad;
     z-index: 1;
 }
