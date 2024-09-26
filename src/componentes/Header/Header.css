@@ -9,6 +9,7 @@ header {
     box-sizing: border-box;
     box-shadow: 2px 5px 15px #000000ad;
     z-index: 1;
+    max-height: 100px;
 }
 
 .logo img {
