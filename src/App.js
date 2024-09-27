@@ -1,4 +1,3 @@
-import './App.css';
 import Banner from './componentes//elementos/Banner';
 import AbaForum from './componentes/AbaForum';
 import Footer from './componentes/Footer';
