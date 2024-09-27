@@ -10,6 +10,7 @@ header {
     box-shadow: 2px 5px 15px #0000004f;
     z-index: 1;
     max-height: 100px;
+    z-index: 3;
 }
 
 .logo {
