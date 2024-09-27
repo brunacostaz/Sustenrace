@@ -1,0 +1,62 @@
+.containerSustenrace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #470f1310;
+    padding: 4em 0;
+}
+
+.caixaObjetivo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2em;
+    gap: 1em;
+    border: 1px solid #470F13;
+    border-radius: 16px;
+    padding: 1em;
+    max-width: 600px;
+}
+
+.containerSustenrace h1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.caixaObjetivo img {
+    width: 10%;
+}
+
+.caixaObjetivo strong {
+    color: #470F13;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .containerSustenrace h1 {
+        font-size: 1.5em;
+    }
+
+    .caixaObjetivo p {
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 1280px) {
+
+    .containerSustenrace h1 {
+        font-size: 1.8em;
+    }
+
+    .caixaObjetivo {
+        padding: 2em;
+    }
+
+    .caixaObjetivo p {
+        font-size: 1.2em;
+    }
+}

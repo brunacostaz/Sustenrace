@@ -4,6 +4,7 @@ import Footer from './componentes/Footer';
 import Header from './componentes/Header';
 import SessaoFormulaE from './componentes/SessaoFormulaE';
 import SessaoImpactos from './componentes/SessaoImpactos';
+import SessaoSustenrace from './componentes/SessaoSustenrace';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <SessaoFormulaE />
       <SessaoImpactos />
+      <SessaoSustenrace />
       <Footer />
     </div>
   );
