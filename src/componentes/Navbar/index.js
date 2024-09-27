@@ -20,7 +20,7 @@ const NavBar = () => {
             </div>
             <ul className={`menuLinks ${ativo ? 'menuAtivo' : ''}`}>
                     <li><a href="#">Fórmula E</a></li>
-                    <li><a href="#">Impactos Positivos e Negativos</a></li>
+                    <li><a href="#">Impactos da Corrida</a></li>
                     <li><a href="#">Carro 3D</a></li>
                     <li><a href="#">Batimentos Cardíacos</a></li>
                     <li><a href="#">Fórum</a></li>

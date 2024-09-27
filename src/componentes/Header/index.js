@@ -6,8 +6,9 @@ const Header = () => {
         <header>
             <div className="logo">
                 <a href='./index.html'>
-                    <img src='./imagens/logo.svg' alt='Logo da Sustenrace'></img>
+                    <img src='./imagens/logo-sustenrace.png' alt='Logo da Sustenrace'></img>
                 </a>
+                <span>Sustenrace</span>
             </div>
             <NavBar />
         </header>

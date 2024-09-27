@@ -1,6 +1,5 @@
 .banner {
     box-sizing: border-box;
-    position: relative;
 }
 
 .banner img {
@@ -9,4 +8,10 @@
     height: auto;
     z-index: 0;
     opacity: 95%;
+}
+
+@media screen and (max-width: 480px) {
+    .banner {
+        padding-top: 3em;
+    }
 }

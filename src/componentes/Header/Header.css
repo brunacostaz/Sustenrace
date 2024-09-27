@@ -5,25 +5,30 @@ header {
     justify-content: space-between;
     padding: 0 1em;
     width: 100vw;
-    background-color: #ffffff11;
+    background-color: #f2e2e2;
     box-sizing: border-box;
     box-shadow: 2px 5px 15px #000000ad;
     z-index: 1;
     max-height: 100px;
 }
 
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo a {
+    width: 15%;
+}
+
 .logo img {
-    width: 100px;
+    width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-    .logo img {
-        width: 150px;
-    }
-}
-
-@media screen and (min-width: 1150px) {
-    .logo img {
-        width: 200px;
-    }
+.logo span {
+    font-size: 1.2em;
+    font-weight: bold;
 }
