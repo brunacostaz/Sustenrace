@@ -1,7 +1,7 @@
-import './Elementos.css'
+import './Estrutura.css'
 import React from 'react'
 
-const ElementosImpactos = (props) => {
+const EstruturaImpactos = (props) => {
     console.log(props)
     return (
         <article className='container'>
@@ -20,4 +20,4 @@ const ElementosImpactos = (props) => {
     )
 }
 
-export default ElementosImpactos
+export default EstruturaImpactos
