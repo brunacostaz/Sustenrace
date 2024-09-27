@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './componentes//elementos/Banner';
+import AbaForum from './componentes/AbaForum';
 import Footer from './componentes/Footer';
 import Header from './componentes/Header';
 import SessaoFormulaE from './componentes/SessaoFormulaE';
@@ -20,6 +21,7 @@ function App() {
       <SessaoUniao />
       <SessaoSolucao />
       <SessaoRecompensas />
+      <AbaForum />
       <Footer />
     </div>
   );
