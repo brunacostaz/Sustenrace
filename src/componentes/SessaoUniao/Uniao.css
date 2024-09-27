@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
-    margin: 2em;
+    margin: 1em;
 }
 
 .containerUniao h1 {
@@ -19,7 +19,7 @@
 .solucao {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     width: 90%;
     max-width: 700px;
 }
@@ -31,6 +31,9 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
+    .containerUniao {
+        margin: 2em;
+    }
 
     .containerUniao h1 {
         font-size: 1.5em;
@@ -41,6 +44,10 @@
     }
 }
 @media screen and (min-width: 1280px) {
+
+    .containerUniao {
+        margin: 2em;
+    }
 
     .containerUniao h1 {
         font-size: 1.8em;
