@@ -1,0 +1,51 @@
+.caixaImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2em;
+    gap: 1em;
+    border: 1px solid #470F13;
+    border-radius: 16px;
+    padding: 0.5em;
+    max-width: 800px;
+    height: 120px;
+}
+
+.caixaImg img {
+    width: 15%;
+}
+
+.caixaImg strong {
+    color: #470F13;
+}
+
+.caixaObjetivo:hover {
+    outline: 1px solid #a0121b;
+    cursor: context-menu;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .caixaImg img {
+        width: 10%;
+    }
+
+    .caixaImg p {
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 1280px) {
+
+    .caixaImg {
+        padding: 1em;
+    }
+
+    .caixaImg img {
+        width: 10%;
+    }
+
+    .caixaImg p {
+        font-size: 1.1em;
+    }
+}
