@@ -1,5 +1,6 @@
 import './App.css';
-import Banner from './componentes/Banner';
+import Banner from './componentes//elementos/Banner';
+import Footer from './componentes/Footer';
 import Header from './componentes/Header';
 import SessaoFormulaE from './componentes/SessaoFormulaE';
 import SessaoImpactos from './componentes/SessaoImpactos';
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <SessaoFormulaE />
       <SessaoImpactos />
+      <Footer />
     </div>
   );
 }

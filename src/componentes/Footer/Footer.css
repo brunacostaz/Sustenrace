@@ -1,0 +1,58 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #470F13;
+}
+
+.sessaoLinks {
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.redesSociais {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.linksSite {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.linksSite a {
+    color: rgba(255, 255, 255, 0.63);
+    letter-spacing: 1px;
+}
+
+.direitos {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    background-color: #180305;
+}
+
+.direitos p {
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+    .sessaoLinks {
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+
+    .redesSociais {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3em;
+    }
+
+    .linksSite {
+        flex-direction: row;
+        gap: 3em;
+    }
+}
