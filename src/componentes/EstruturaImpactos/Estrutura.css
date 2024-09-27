@@ -18,15 +18,15 @@
 
 .container img {
     max-width: 30%;
-    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.438));
+    filter: drop-shadow(5px 5px 8px #00000070);
 }
 
 .containerTexto h2 {
-    font-size: 1.1em;
+    font-size: var(--h2-size-mobile);
 }
 
 .containerTexto p {
-    font-size: 1em;
+    font-size: var(--p-size-mobile);
     max-width: 80%;
     text-align: justify;
 }
@@ -51,11 +51,11 @@
     }
 
     .containerTexto h2 {
-        font-size: 1.3em;
+        font-size: var(--h2-size-tablet);
     }
 
     .containerTexto p {
-        font-size: 1.2em;
+        font-size: var(--p-size-tablet);
         text-align: justify;
     }
 }
@@ -72,11 +72,11 @@
     }
 
     .containerTexto h2 {
-        font-size: 1.5em;
+        font-size: var(--h2-size-desktop);
     }
 
     .containerTexto p {
-        font-size: 1.2em;
+        font-size: var(--p-size-desktop);
         text-align: justify;
     }
 }

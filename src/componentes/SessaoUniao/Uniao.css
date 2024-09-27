@@ -5,16 +5,16 @@
     align-items: center;
     gap: 1em;
     margin: 1em;
-    padding: 2em 0;
+    padding: var(--margin-y) 0;
 }
 
 .containerUniao h1 {
     text-align: center;
-    font-size: 1.2em;
+    font-size: var(--h1-size-mobile);
 }
 
 .containerUniao h1 span {
-    color: #a0121b;
+    color: var(--vermelho-p);
 }
 
 .solucao {
@@ -26,35 +26,39 @@
 }
 
 .solucao div {
-    background-color: #470F13;
+    background-color: var(--vermelho-medio);
     width: 2px;
     height: 130px;
 }
 
+.solucao p {
+    font-size: var(--p-size-mobile);
+}
+
 @media screen and (min-width: 769px) and (max-width: 1279px) {
     .containerUniao {
-        margin: 2em;
+        margin: var(--margin-y);
     }
 
     .containerUniao h1 {
-        font-size: 1.5em;
+        font-size: var(--h1-size-tablet);
     }
 
     .solucao p {
-        font-size: 1.1em;
+        font-size: var(--p-size-tablet);
     }
 }
 @media screen and (min-width: 1280px) {
 
     .containerUniao {
-        margin: 2em;
+        margin: var(--margin-y);
     }
 
     .containerUniao h1 {
-        font-size: 1.8em;
+        font-size: var(--h1-size-desktop);
     } 
 
     .solucao p {
-        font-size: 1.2em;
+        font-size: var(--p-size-desktop);
     }
 }

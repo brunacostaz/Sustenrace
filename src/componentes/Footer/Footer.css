@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #470F13;
+    background-color: var(--vermelho-medio);
     margin-top: 4em;
 }
 
@@ -33,7 +33,7 @@
     width: 100%;
     padding: 4px;
     box-sizing: border-box;
-    background-color: #180305;
+    background-color: var(--vermelho-escuro);
 }
 
 .direitos p {

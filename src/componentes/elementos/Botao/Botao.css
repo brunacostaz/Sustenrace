@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    padding: 1.3em;
+    padding: var(--margin-x);
     min-width: 250px;
     margin: 3em auto;
     border-radius: 30px;

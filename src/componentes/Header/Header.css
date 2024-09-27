@@ -5,10 +5,9 @@ header {
     justify-content: space-between;
     padding: 0 1em;
     width: 100vw;
-    background-color: #f2e2e2;
+    background-color: var(--vermelho-claro);
     box-sizing: border-box;
-    box-shadow: 2px 5px 15px #0000004f;
-    z-index: 1;
+    box-shadow: 2px 5px 15px var(--color-shadow);
     max-height: 100px;
     z-index: 3;
 }
@@ -30,6 +29,6 @@ header {
 }
 
 .logo span {
-    font-size: 1.2em;
+    font-size: var(--p-size-desktop);
     font-weight: bold;
 }

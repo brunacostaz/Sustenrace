@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
-    background-color: #470f1310;
+    background-color: var(--cinza-claro);
     padding: 4em 0;
 }
 
@@ -13,22 +13,22 @@
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    margin: 0 2em;
+    margin: 0 var(--margin-y);
     gap: 1em;
-    border: 1px solid #470F13;
+    border: 1px solid var(--vermelho-medio);
     border-radius: 16px;
     padding: 1em;
     max-width: 600px;
 }
 
 .caixaObjetivo:hover {
-    outline: 1px solid #a0121b;
+    outline: 1px solid var(--vermelho-p);
     cursor: context-menu;
 }
 
 .containerSustenrace h1 {
     text-align: center;
-    font-size: 1.2em;
+    font-size: var(--h1-size-mobile);
     font-weight: normal;
 }
 
@@ -37,14 +37,18 @@
 }
 
 .caixaObjetivo strong {
-    color: #470F13;
+    color: var(--vermelho-medio);
+}
+
+.caixaObjetivo p {
+    font-size: var(--p-size-mobile);
 }
 
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 
     .containerSustenrace h1 {
-        font-size: 1.5em;
+        font-size: var(--h1-size-tablet);
     }
 
     .caixaObjetivo {
@@ -52,13 +56,13 @@
     }
 
     .caixaObjetivo p {
-        font-size: 1.1em;
+        font-size: var(--p-size-tablet);
     }
 }
 @media screen and (min-width: 1280px) {
 
     .containerSustenrace h1 {
-        font-size: 1.8em;
+        font-size: var(--h1-size-desktop);
     }
 
     .caixaObjetivo {
@@ -66,6 +70,6 @@
     }
 
     .caixaObjetivo p {
-        font-size: 1.2em;
+        font-size: var(--p-size-desktop);
     }
 }

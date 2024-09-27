@@ -1,5 +1,6 @@
 import EstruturaImpactos from "../EstruturaImpactos"
 import './Impactos.css'
+import '../../variaveis.css'
 
 const SessaoImpactos = () => {
     return (

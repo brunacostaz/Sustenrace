@@ -1,4 +1,5 @@
 import './Caixa.css'
+import '../../../variaveis.css'
 
 const CaixaImgText = (props) => {
     return (

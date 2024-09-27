@@ -1,5 +1,6 @@
 import './Navbar.css'
 import React, { useState } from 'react'
+import '../../variaveis.css'
 
 const NavBar = () => {
     const [ ativo, setAtivo ] = useState(false); 

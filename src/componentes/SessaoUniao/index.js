@@ -1,4 +1,5 @@
 import './Uniao.css'
+import '../../variaveis.css'
 
 const SessaoUniao = () => {
     return (

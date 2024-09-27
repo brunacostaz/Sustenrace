@@ -1,4 +1,5 @@
 import './Sustenrace.css'
+import '../../variaveis.css'
 
 const SessaoSustenrace = () => {
 

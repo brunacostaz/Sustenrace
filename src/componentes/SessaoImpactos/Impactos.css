@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    padding: 0 2em;
+    padding: 0 var(--margin-y);
     justify-content: center;
 }
 
 .containerImpactos h1 {
     text-align: center;
-    margin-bottom: 2em;
-    font-size: 1.2em;
+    margin-bottom: var(--margin-y);
+    font-size: var(--h1-size-mobile);
 }
 
 .containerImpactos > {
@@ -18,7 +18,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
     .containerImpactos h1 {
-        font-size: 1.5em;
+        font-size: var(--h1-size-tablet);
     }
 }
 @media screen and (min-width: 1280px) {
@@ -33,7 +33,7 @@
     .containerImpactos h1 {
         text-align: center;
         grid-column: 1/ span 3;
-        font-size: 1.8em;
+        font-size: var(--h1-size-desktop);
     }
     
     .containerImpactos > {

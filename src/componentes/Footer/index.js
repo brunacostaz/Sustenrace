@@ -1,5 +1,6 @@
 import './Footer.css'
 import LinksLinkedin from '../elementos/LinksLinkedin'
+import '../../variaveis.css'
 
 const Footer = () => {
     return (
