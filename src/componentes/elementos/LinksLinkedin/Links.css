@@ -1,0 +1,15 @@
+.containerLinks a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.spanIcon {
+    display: inline-block;
+    background-color: #EDCECE;
+    padding: 4px;
+    border-radius: 50%;
+}
+
