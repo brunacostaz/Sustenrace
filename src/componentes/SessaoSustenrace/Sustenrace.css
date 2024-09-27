@@ -47,6 +47,10 @@
         font-size: 1.5em;
     }
 
+    .caixaObjetivo {
+        max-width: 500px;
+    }
+
     .caixaObjetivo p {
         font-size: 1.1em;
     }
