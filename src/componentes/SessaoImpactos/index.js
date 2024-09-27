@@ -1,32 +1,32 @@
 import ElementosImpactos from "../ElementosImpacto"
-
+import './Impactos.css'
 
 const SessaoImpactos = () => {
     return (
-        <section>
-            <h1>Impactos da Fórmula E</h1>
+        <section className="containerImpactos">
+            <h1>A Fórmula E é o Futuro!</h1>
             <ElementosImpactos
-                imgSrc= "../../../imagens/imgLampadas.svg"
+                imgSrc= "../../../imagens/img-sustentabilidade.svg"
                 imgAlt= "Foto de lâmpadas">
                     <article>
-                        <h2>Engajamento e Criatividade</h2>
-                        <p>A criação de carros promove a criatividade e o envolvimento do público, gerando uma conexão emocional mais forte com a Fórmula E.</p>
+                        <h2>Sustentabilidade</h2>
+                        <p>A Fórmula E está mudando mudando o futuro dos carros de corrida, devido a sustentabilidade que oferece, usando motores elétricos.</p>
                     </article>
             </ElementosImpactos>
             <ElementosImpactos
-                imgSrc= "../../../imagens/imgLivros.svg"
-                imgAlt= "Foto de lâmpadas">
+                imgSrc= "../../../imagens/img-inovacao.svg"
+                imgAlt= "Foto de livros">
                     <article>
-                        <h2>Educação</h2>
-                        <p>A comparação com a Fórmula 1 permite que os usuários entendam as diferenças e semelhanças entre as duas categorias, informando melhor o público sobre a relevância da Fórmula E.</p>
+                        <h2>Inovação</h2>
+                        <p>É o que a formula E representa, sempre inovando com seus carros elétricos e baterias de alta performance.</p>
                     </article>
             </ElementosImpactos>
             <ElementosImpactos
-                imgSrc= "../../../imagens/imgPercepcao.svg"
-                imgAlt= "Foto de lâmpadas">
+                imgSrc= "../../../imagens/img-competitividade.svg"
+                imgAlt= "Foto ">
                     <article>
-                        <h2>Percepção</h2>
-                        <p>A solução pode mudar a percepção de que os carros elétricos são inferiores.</p>
+                        <h2>Competitividade</h2>
+                        <p>Um dos fatores que torna a categoria mais emocionante e divertida. Usando carros de alto desempenho, focando na eficiência.</p>
                     </article>
             </ElementosImpactos>
         </section>
