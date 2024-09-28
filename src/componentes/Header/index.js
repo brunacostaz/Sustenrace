@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header>
             <div className="logo">
-                <a href='./index.html'>
+                <a href='#home'>
                     <img src='./imagens/logo-sustenrace.png' alt='Logo da Sustenrace'></img>
                 </a>
                 <span>Sustenrace</span>

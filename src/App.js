@@ -12,15 +12,31 @@ import SessaoUniao from './componentes/SessaoUniao';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <section id='home'>
+        <Header />
+      </section>
       <Banner />
-      <SessaoFormulaE />
-      <SessaoImpactos />
-      <SessaoSustenrace />
-      <SessaoUniao />
-      <SessaoSolucao />
-      <SessaoRecompensas />
-      <AbaForum />
+      <section id='formulaE'>
+        <SessaoFormulaE />
+      </section>
+      <section id='impactos'>
+        <SessaoImpactos />
+      </section>
+      <section id='sustenrace'>
+        <SessaoSustenrace />
+      </section>
+      <section>
+        <SessaoUniao />
+      </section>
+      <section id='produtos'>
+        <SessaoSolucao />
+      </section>
+      <section>
+        <SessaoRecompensas />
+      </section>
+      <section id='forum'>
+        <AbaForum />
+      </section>
       <Footer />
     </div>
   );

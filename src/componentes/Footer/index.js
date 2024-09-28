@@ -25,11 +25,13 @@ const Footer = () => {
                     />
                 </article>
                 <article className='linksSite'>
-                    <a href='#'>Fórmula E</a>
-                    <a href='#'>Impactos da Corrida</a>
-                    <a href='#'>Carro 3D</a>
-                    <a href='#'>Batimentos Cardíacos</a>
-                    <a href='#'>Fórum</a>
+                    <a href='#formulaE'>Fórmula E</a>
+                    <a href='#impactos'>Impactos da Corrida</a>
+                    <a href='#sustenrace'>Sustenrace</a>
+                    <a href='#produtos'>Produtos</a>
+                    <a href='#carro'>Carro 3D</a>
+                    <a href='#bpm'>Batimentos Cardíacos</a>
+                    <a href='#forum'>Fórum</a>
                 </article>
             </section>
             <section className='direitos'> 
