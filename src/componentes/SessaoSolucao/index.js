@@ -18,7 +18,7 @@ const SessaoSolucao = () => {
                         imgSrc='../../../../imagens/icon-compare.svg'
                         imgAlt='icone que representa a comparação entre dois elementos'>
                         <p>
-                            Comparar os carros da Fórmula E e Fórmula 1, entender suas diferenças, semelhanças e pontos positivos. 
+                            Comparar os carros da Fórmula E e Fórmula 1, entender suas diferenças e semelhanças. 
                         </p>
                     </CaixaImgText>
                 </article>
