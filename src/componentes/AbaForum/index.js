@@ -34,10 +34,7 @@ const AbaForum = () => {
                         </p>
                 </Card>
             </article>
-            <Botao 
-                span="Fazer parte da comunidade"
-                imgSrc="../../../../imagens/icon-seta.svg"
-                imgAlt="Icone de seta" />
+            <Botao span="Fazer parte da comunidade"/>
         </section>
     )
 }
