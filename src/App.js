@@ -2,6 +2,7 @@ import Banner from './componentes//elementos/Banner';
 import AbaForum from './componentes/AbaForum';
 import Footer from './componentes/Footer';
 import Header from './componentes/Header';
+import SessaoBPM from './componentes/SessaoBPM';
 import SessaoFormulaE from './componentes/SessaoFormulaE';
 import SessaoImpactos from './componentes/SessaoImpactos';
 import SessaoRecompensas from './componentes/SessaoRecompensas';
@@ -33,6 +34,9 @@ function App() {
       </section>
       <section>
         <SessaoRecompensas />
+      </section>
+      <section id="bpm">
+        <SessaoBPM />
       </section>
       <section id='forum'>
         <AbaForum />
