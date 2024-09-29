@@ -11,3 +11,8 @@ body {
   background-color: #F2E2E2;
   box-sizing: border-box;
 }
+
+p {
+  text-indent: 25px;
+  line-height: 30px;
+}
