@@ -1,3 +1,7 @@
+.containerLinks {
+    text-indent: 0;
+}
+
 .containerLinks a {
     display: flex;
     align-items: center;

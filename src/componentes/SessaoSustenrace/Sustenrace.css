@@ -42,6 +42,7 @@
 
 .caixaObjetivo p {
     font-size: var(--p-size-mobile);
+    text-indent: 0;
 }
 
 
