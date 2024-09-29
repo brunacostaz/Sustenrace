@@ -3,12 +3,14 @@ header {
     top: 0;
     display: flex;
     justify-content: space-between;
-    padding: 0 1em;
+    align-items: center;
+    padding: 0 var(--margin-y);
     width: 100vw;
     background-color: var(--vermelho-claro);
     box-sizing: border-box;
     box-shadow: 2px 5px 15px var(--color-shadow);
     max-height: 100px;
+    min-height: 60px;
     z-index: 3;
 }
 
@@ -31,4 +33,55 @@ header {
 .logo span {
     font-size: var(--p-size-desktop);
     font-weight: bold;
+    color: var(--vermelho-medio);
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    font-weight: 400;
+    width: 100%;
+}
+
+.menuLinks {
+    list-style: none;
+    display: none;
+    padding: 0;
+}
+
+.menuLinks li {
+    margin: 10px 0;
+}
+
+.menuLinks a {
+    color: #000000;
+    text-decoration: none;
+    font-size: var(--p-size-tablet);
+    transition: color 0.2s;
+}
+
+.menuLinks a:hover {
+    color: var(--vermelho-vibrante);
+}
+
+@media screen and (min-width: 1150px) {
+    .navbar {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .menuLinks {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menuLinks li {
+        padding-right: 2em;
+    }
+
 }
