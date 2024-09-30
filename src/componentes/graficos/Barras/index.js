@@ -1,11 +1,19 @@
 import React from 'react'
-import { Chart as Chartjs } from 'chart.js/auto'
+import { Chart as Chartjs, defaults } from 'chart.js/auto'
 import { Bar, Doughtnut, Line} from 'react-chartjs-2'
 
 import mediaBPM from '../../../data/mediaBPM.json'
 
 import '../../../variaveis.css'
 import './Barras.css'
+
+defaults.maintainAspectRatio = false
+defaults.responsive = true
+
+// defaults.plugins.title.display = true
+// defaults.plugins.title.align = "center"
+// defaults.plugins.title.font.size = 18
+// defaults.plugins.title.color = "#470F13"
 
 const Barras = () => {
 
