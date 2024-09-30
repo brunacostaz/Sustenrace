@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/Sustenrace/static/css/main.4c771dd9.css",
-    "main.js": "/Sustenrace/static/js/main.e9b42e15.js",
+    "main.css": "/Sustenrace/static/css/main.268eecfa.css",
+    "main.js": "/Sustenrace/static/js/main.42193f18.js",
     "static/js/453.c3622670.chunk.js": "/Sustenrace/static/js/453.c3622670.chunk.js",
+    "static/media/carro_cheio.glb": "/Sustenrace/static/media/carro_cheio.3db7d26169853f61d372.glb",
+    "static/media/carro_contorno.glb": "/Sustenrace/static/media/carro_contorno.225d3982adb8fabdd069.glb",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Sustenrace/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/Sustenrace/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Sustenrace/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Sustenrace/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Sustenrace/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/Sustenrace/index.html",
-    "main.4c771dd9.css.map": "/Sustenrace/static/css/main.4c771dd9.css.map",
-    "main.e9b42e15.js.map": "/Sustenrace/static/js/main.e9b42e15.js.map",
+    "main.268eecfa.css.map": "/Sustenrace/static/css/main.268eecfa.css.map",
+    "main.42193f18.js.map": "/Sustenrace/static/js/main.42193f18.js.map",
     "453.c3622670.chunk.js.map": "/Sustenrace/static/js/453.c3622670.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c771dd9.css",
-    "static/js/main.e9b42e15.js"
+    "static/css/main.268eecfa.css",
+    "static/js/main.42193f18.js"
   ]
 }
