@@ -9,6 +9,7 @@ import SessaoRecompensas from './componentes/SessaoRecompensas';
 import SessaoSolucao from './componentes/SessaoSolucao';
 import SessaoSustenrace from './componentes/SessaoSustenrace';
 import SessaoUniao from './componentes/SessaoUniao';
+import CarroHome from './componentes/CarroHome';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
       </section>
       <section>
         <SessaoRecompensas />
+      </section>
+      <section id='carro'>
+        <CarroHome />
       </section>
       <section id="bpm">
         <SessaoBPM />
