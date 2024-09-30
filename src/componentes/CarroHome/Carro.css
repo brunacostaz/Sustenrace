@@ -1,3 +1,13 @@
+.tituloCarro {
+    font-size: var(--h1-size-desktop);
+    text-align: center;
+}
+
+.tituloCarro span {
+    color: var(--vermelho-p);
+}
+
+
 /* Container dos botões */
 #threejs-controls {
     position: relative;
@@ -57,6 +67,10 @@
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
+    .tituloCarro {
+        font-size: var(--h1-size-mobile);
+    }
+
     #threejs-controls {
         flex-direction: column;
         top: 20px;
@@ -70,6 +84,10 @@
 
 /* Responsividade para tablets */
 @media (min-width: 769px) and (max-width: 1024px) {
+    .tituloCarro {
+        font-size: var(--h1-size-tablet);
+    }
+
     #threejs-controls {
         flex-direction: row;
         justify-content: center;

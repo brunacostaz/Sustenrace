@@ -7,6 +7,7 @@ import CarroContorno from '../../models/carro_contorno.glb';
 import './Carro.css';
 import '../../variaveis.css';
 import 'font-awesome/css/font-awesome.min.css';
+import Botao from '../elementos/Botao'
 
 
 const Carro3d = () => {
@@ -212,6 +213,7 @@ const Carro3d = () => {
 
   return (
     <div>
+      <h1 className='tituloCarro'>Viva a Emoção: Junte-se para ver o carro 3D em <span>Movimento!</span></h1>
       <div ref={containerRef} id="threejs-canvas-container">
         <div id="threejs-loading">Carregando...</div>
       </div>
@@ -236,6 +238,7 @@ const Carro3d = () => {
           />
         )}
       </div>
+      <Botao span="Explorar as opções" />
     </div>
   );
 };
