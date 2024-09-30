@@ -10,7 +10,7 @@ const AbaForum = () => {
             <p className='subtitulo'>Faça parte da nossa comunidade e compartilhe sua paixão pelo automobilismo.</p>
             <article className='cards'>
                 <Card
-                    imgSrc="../../../imagens/foto-forum-1.svg"
+                    imgSrc="./imagens/foto-forum-1.svg"
                     imgAlt="Foto do piloto Jordan King"
                     nome="Jordan King">
                         <p>
@@ -18,7 +18,7 @@ const AbaForum = () => {
                         </p>
                 </Card>
                 <Card
-                    imgSrc="../../../imagens/foto-forum-2.svg"
+                    imgSrc="./imagens/foto-forum-2.svg"
                     imgAlt="Foto do piloto Edoardo Mortara"
                     nome="Edoardo Mortara">
                         <p>
@@ -26,7 +26,7 @@ const AbaForum = () => {
                         </p>
                 </Card>
                 <Card
-                    imgSrc="../../../imagens/foto-forum-3.svg"
+                    imgSrc="./imagens/foto-forum-3.svg"
                     imgAlt="Foto do piloto Nyck de Vries"
                     nome="Nyck de Vries">
                         <p>

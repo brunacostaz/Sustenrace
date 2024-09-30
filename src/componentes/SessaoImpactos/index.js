@@ -7,7 +7,7 @@ const SessaoImpactos = () => {
         <section className="containerImpactos">
             <h1>A Fórmula E é o Futuro!</h1>
             <EstruturaImpactos
-                imgSrc= "../../../imagens/img-sustentabilidade.svg"
+                imgSrc= "./imagens/img-sustentabilidade.svg"
                 imgAlt= "Foto de lâmpadas">
                     <article>
                         <h2>Sustentabilidade</h2>
@@ -15,7 +15,7 @@ const SessaoImpactos = () => {
                     </article>
             </EstruturaImpactos>
             <EstruturaImpactos
-                imgSrc= "../../../imagens/img-inovacao.svg"
+                imgSrc= "./imagens/img-inovacao.svg"
                 imgAlt= "Foto de livros">
                     <article>
                         <h2>Inovação</h2>
@@ -23,7 +23,7 @@ const SessaoImpactos = () => {
                     </article>
             </EstruturaImpactos>
             <EstruturaImpactos
-                imgSrc= "../../../imagens/img-competitividade.svg"
+                imgSrc= "./imagens/img-competitividade.svg"
                 imgAlt= "Foto ">
                     <article>
                         <h2>Competitividade</h2>

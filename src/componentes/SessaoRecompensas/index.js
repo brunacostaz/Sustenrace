@@ -16,7 +16,7 @@ const SessaoRecompensas = () => {
                 <p className='pBorda'>
                     Já imaginou estar ao lado dos engenheiros e mecânicos da Fórmula E e, depois, assistir os carros correndo com uma ideia sua? Um sonho, não é mesmo?
                 </p>
-                <img src='../../../imagens/ilustracao-tech.svg'/>
+                <img src='./imagens/ilustracao-tech.svg'/>
             </article>
         </section>
     )
