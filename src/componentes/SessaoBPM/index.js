@@ -9,7 +9,7 @@ const SessaoBPM = () => {
         <section className='containerBPM'>
             <Barras />
             <article className='textoBPM'>
-                <h1>Acompanhe a emoção</h1>
+                <h1>Acompanhe a emoção!</h1>
                 <p>
                     Veja em tempo real como os batimentos cardíacos dos espectadores reagem às emoções intensas da corrida! O gráfico mostra os picos de adrenalina durante os momentos mais emocionantes da Fórmula E.
                 </p>
