@@ -9,7 +9,7 @@ const SessaoSustenrace = () => {
             <article 
                 className= 'caixaObjetivo'
                 >
-                <img src='./imagens/logo-sustenrace.png'/>
+                <img src= {`${process.env.PUBLIC_URL}/imagens/logo-sustenrace.png`}/>
                 <p>
                     O nosso objetivo é proporcionar <strong>experiências inovadoras</strong> e envolventes por meio da interatividade com as corridas.
                 </p>

@@ -10,7 +10,7 @@ const SessaoFormulaE = () => {
             </article>
             <div className='containerImg'>
                 <img 
-                    src='./imagens/img-formulaE.svg'
+                    src={`${process.env.PUBLIC_URL}/imagens/img-formulaE.svg`}
                     alt='Foto de um carro da fórmula E vermelho'
                     className='imgFormula'/>
             </div>

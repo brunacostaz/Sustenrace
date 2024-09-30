@@ -5,7 +5,7 @@ const Botao = (props) => {
     return (
         <button type='button' className='botao'>
             <span>{props.span}</span>
-            <img src="./imagens/icon-seta.svg" 
+            <img src= {`${process.env.PUBLIC_URL}/imagens/icon-seta.svg`} 
                 alt="Icone de seta" />
         </button>
     )

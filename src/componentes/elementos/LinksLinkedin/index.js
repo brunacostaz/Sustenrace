@@ -6,7 +6,7 @@ const LinksLinkedin = (props) => {
             <a href={props.linkRede} target='_blank'>
                 <span className='spanIcon'>
                 <img 
-                    src="./imagens/icon-linkedin.svg"
+                    src= {`${process.env.PUBLIC_URL}/imagens/icon-linkedin.svg`}
                     alt="ícone da logo do linkedin"
                     className='icon'
                 />
