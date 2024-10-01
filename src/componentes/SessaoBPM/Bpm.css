@@ -7,7 +7,7 @@
         "grafico"
         "botao ";
     gap: 4em;
-    margin: 3em auto;
+    margin: 6em auto 3em;
     width: 90%;
     justify-items: center;
     align-items: center;
