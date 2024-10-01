@@ -2,7 +2,7 @@
 
 <br>
 
-Sustenrace é o resultado de uma parceria com a Mahindra, criada para enfrentar o desafio de popularizar a Fórmula E através de uma aplicação web inovadora. Nossa missão é unir educação e tecnologia, oferecendo uma experiência interativa e envolvente que conecta os usuários ao mundo dos carros da Fórmula E, promovendo inovação e novas formas de aprendizado.
+A Sustenrace é o resultado de uma parceria com a Mahindra, criada para enfrentar o desafio de popularizar a Fórmula E através de uma aplicação web inovadora. Nossa missão é unir educação e tecnologia, oferecendo uma experiência interativa e envolvente que conecta os usuários ao mundo dos carros da Fórmula E, promovendo inovação e novas formas de aprendizado.
 
 Para concretizar esse objetivo, criamos uma plataforma interativa e educativa que conecta os entusiastas de automobilismo e corridas. O destaque da nossa solução são os modelos 3D gamificados dos carros, que oferecem uma experiência imersiva e divertida para os usuários.  Por meio desses carros, os usuários podem: 
 
