@@ -1,6 +1,6 @@
 #  <img src="public/imagens/logo-sustenrace.png" width= 80px align=center> Sustenrace 
 
-## Descrição Geral
+<br>
 
 Sustenrace é o resultado de uma parceria com a Mahindra, criada para enfrentar o desafio de popularizar a Fórmula E através de uma aplicação web inovadora. Nossa missão é unir educação e tecnologia, oferecendo uma experiência interativa e envolvente que conecta os usuários ao mundo dos carros da Fórmula E, promovendo inovação e novas formas de aprendizado.
 
