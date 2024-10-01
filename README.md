@@ -29,15 +29,15 @@ Nos próximos passos dessa gamificação, iremos utilizar o React Router para ad
 
 ## Tecnologias Utilizadas:
 
-* React
-* React Router
-* Chart.js
-* Three.js
-* JavaScript
-* CSS3
+* `React`
+* `React Router`
+* `Chart.js`
+* `Three.js`
+* `JavaScript`
+* `CSS3`
 
 ## Ferramentas Utilizadas:
 
-* Blender
-* Figma
-* Git e GitHub
+* `Blender`
+* `Figma`
+* `Git` e `GitHub`
