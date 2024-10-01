@@ -29,7 +29,7 @@ Nos próximos passos dessa gamificação, iremos utilizar o React Router para ad
 
 ## Tecnologias Utilizadas:
 
-* `React`
+* `React.js`
 * `React Router`
 * `Chart.js`
 * `Three.js`
