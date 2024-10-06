@@ -9,7 +9,7 @@
 }
 
 .carros3D-nav {
-    margin: 20px 0; 
+    margin: 2em auto 0; 
     background-color: var(--vermelho-claro); 
     padding: 10px; 
     border-radius: 5px;
