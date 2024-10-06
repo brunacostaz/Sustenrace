@@ -1,0 +1,195 @@
+/* Index.js */
+.carros3D-container { 
+    display: flex;
+    flex-direction: column; 
+    padding: 0 20px; 
+    padding-top: 80px; 
+    padding-bottom: 20px; 
+    min-height: calc(100vh - 100px); 
+}
+
+.carros3D-nav {
+    margin: 20px 0; 
+    background-color: var(--vermelho-claro); 
+    padding: 10px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.carros3D-nav ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+}
+
+.carros3D-nav li {
+    margin-right: 20px; 
+}
+
+.carros3D-nav a {
+    text-decoration: none;
+    color: var(--vermelho-medio); 
+    padding: 10px 15px; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.carros3D-nav a:hover {
+    background-color: #f0f0f0; 
+}
+
+.carros3D-nav a.active {
+    font-weight: bold; 
+    color: var(--vermelho-carro); 
+}
+
+.carros3D-content {
+    margin-top: 20px; 
+    padding: 20px; 
+    background-color: var(--vermelho-claro); 
+    border-radius: 5px; 
+}
+
+/* Para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .carros3D-container {
+        padding: 0 10px; 
+    }
+
+    .carros3D-nav {
+        padding: 5px; 
+        margin-top: 80px;
+    }
+
+    .carros3D-nav ul {
+        flex-direction: row; 
+        align-items: center; 
+    }
+
+    .carros3D-nav li {
+        margin: 0 10px;
+    }
+
+    .carros3D-content {
+        padding: 10px; 
+    }
+}
+
+/* Para celulares */
+@media (max-width: 768px) {
+    .carros3D-nav {
+        margin: 10px 0; 
+    }
+
+    .carros3D-nav ul {
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    .carros3D-nav li {
+        margin: 10px 0; 
+    }
+
+    .carros3D-nav a {
+        padding: 8px 10px; 
+    }
+}
+
+
+
+/* Explorar Carro */
+.tituloCarro3d {
+    font-size: var(--h1-size-desktop);
+    text-align: center;
+}
+
+.tituloCarro3d span {
+    color: var(--vermelho-p);
+}
+
+#threejs-controls3d {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px; 
+    z-index: 1; 
+    margin-bottom: 6em;
+}
+
+.threejs-control-button3d {
+    background-color: var(--vermelho-carro);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease; 
+    margin: 5px;
+}
+
+.threejs-control-button3d:hover {
+    background-color: #871e2b;
+}
+
+#threejs-canvas-container3d {
+    position: relative;
+    width: 98%;
+    height: 80vh;
+    z-index: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fundo-canvas); 
+}
+
+#threejs-loading3d {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #333;
+    z-index: 5; 
+}
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+    .tituloCarro3d {
+        font-size: var(--h1-size-mobile);
+    }
+
+    #threejs-controls3d {
+        flex-direction: column;
+        top: 20px;
+    }
+
+    .threejs-control-button3d {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+/* Responsividade para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .tituloCarro3d {
+        font-size: var(--h1-size-tablet);
+    }
+
+    #threejs-controls3d {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .threejs-control-button3d {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+/* Comparacao */
+/* Formulario */ 

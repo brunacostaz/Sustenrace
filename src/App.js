@@ -1,6 +1,6 @@
-import Footer from './componentes/Footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './componentes/Home'
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './componentes/Home';
 import Carros3D from './componentes/Carros3D';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <Router basename='/Sustenrace'>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/carros3D' element={<Carros3D />} />
+        <Route path='/carros3D/*' element={<Carros3D />} /> 
       </Routes>
     </Router>
   );
