@@ -1,5 +1,5 @@
 import './Recompensas.css'
-import '../../variaveis.css'
+import '../../../variaveis.css'
 
 const SessaoRecompensas = () => {
     return (

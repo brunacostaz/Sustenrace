@@ -1,6 +1,6 @@
 import './Estrutura.css'
 import React from 'react'
-import '../../variaveis.css'
+import '../../../variaveis.css'
 
 const EstruturaImpactos = (props) => {
     console.log(props)

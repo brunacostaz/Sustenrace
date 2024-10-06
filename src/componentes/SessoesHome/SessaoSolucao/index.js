@@ -1,6 +1,6 @@
-import CaixaImgText from '../elementos/CaixaImgText'
+import CaixaImgText from '../../elementos/CaixaImgText'
 import './Solucao.css'
-import '../../variaveis.css'
+import '../../../variaveis.css'
 
 const SessaoSolucao = () => {
         return (

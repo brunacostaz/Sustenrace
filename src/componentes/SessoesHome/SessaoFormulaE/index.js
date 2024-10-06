@@ -1,5 +1,5 @@
 import './SessaoFormulaE.css'
-import '../../variaveis.css'
+import '../../../variaveis.css'
 
 const SessaoFormulaE = () => {
     return (

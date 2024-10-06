@@ -1,7 +1,7 @@
 import './Forum.css'
-import '../../variaveis.css'
-import Card from '../elementos/Card'
-import Botao from '../elementos/Botao'
+import '../../../variaveis.css'
+import Card from '../../elementos/Card'
+import Botao from '../../elementos/Botao'
 
 const AbaForum = () => {
     return(

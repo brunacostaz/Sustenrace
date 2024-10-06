@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     margin-top: 10px; 
     z-index: 1; 
+    margin-bottom: 6em;
 }
 
 
@@ -46,14 +47,15 @@
 /* Container principal do canvas */
 #threejs-canvas-container {
     position: relative;
-    width: 100%;
+    width: 98%;
     height: 80vh;
     z-index: 1; /* Coloca o canvas em uma camada mais baixa */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--fundo-canvas); /* Cor de fundo para o canvas */
-} 
+}
+
 /* Loading */
 #threejs-loading {
     position: absolute;

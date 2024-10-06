@@ -1,7 +1,7 @@
 import './Bpm.css'
-import '../../variaveis.css'
-import Barras from '../graficos/Barras'
-import Botao from '../elementos/Botao'
+import '../../../variaveis.css'
+import Barras from '../../graficos/Barras'
+import Botao from '../../elementos/Botao'
 
 const SessaoBPM = () => {
     

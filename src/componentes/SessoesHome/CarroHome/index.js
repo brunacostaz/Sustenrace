@@ -2,12 +2,12 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import CarroCheio from '../../models/carro_cheio.glb';
-import CarroContorno from '../../models/carro_contorno.glb';
+import CarroCheio from '../../../models/carro_cheio.glb';
+import CarroContorno from '../../../models/carro_contorno.glb';
 import './Carro.css';
-import '../../variaveis.css';
+import '../../../variaveis.css';
 import 'font-awesome/css/font-awesome.min.css';
-import Botao from '../elementos/Botao'
+import Botao from '../../elementos/Botao'
 
 
 const Carro3d = () => {
