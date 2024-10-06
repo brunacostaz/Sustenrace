@@ -23,7 +23,7 @@
 
 /* Estilo dos botões */
 .threejs-control-button {
-    background-color: #a43943;
+    background-color: var(--vermelho-carro);
     color: white;
     border: none;
     padding: 10px;
@@ -33,12 +33,6 @@
     transition: background-color 0.3s ease; 
     margin: 5px;
 }
-
-.threejs-color-input {
-    display: block;
-    margin: 10px 0;
-  }
-  
 
 .threejs-control-button:hover {
     background-color: #871e2b;
