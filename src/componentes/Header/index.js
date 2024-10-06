@@ -1,6 +1,7 @@
 import './Header.css'
 import '../../variaveis.css'
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const [ativo, setAtivo] = useState(false);
@@ -25,6 +26,7 @@ const Header = () => {
                 </div>
                 <ul className="menuLinks">
                     <button className="fecharMenu" onClick={toggleMenu}>X</button>
+                    <li><Link to="/">Home</Link></li>
                     <li><a href="#formulaE">Fórmula E</a></li>
                     <li><a href="#impactos">Impactos da Corrida</a></li>
                     <li><a href="#sustenrace">Sustenrace</a></li>
@@ -32,6 +34,7 @@ const Header = () => {
                     <li><a href="#carro">Carro 3D</a></li>
                     <li><a href="#bpm">Batimentos Cardíacos</a></li>
                     <li><a href="#forum">Fórum</a></li>
+                    <li><Link to="/carros3D">Carros 3D</Link></li>
                 </ul>
             </nav>
         </header>
