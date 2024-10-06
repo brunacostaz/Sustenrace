@@ -25,8 +25,14 @@
 }
 
 .linksSite a {
-    color: rgba(255, 255, 255, 0.63);
+    color: rgb(228, 228, 228);
     letter-spacing: 1px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.linksSite a:hover {
+    color: rgb(185, 185, 185);
 }
 
 .direitos {
