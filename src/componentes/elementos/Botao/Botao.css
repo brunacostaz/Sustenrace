@@ -1,3 +1,7 @@
+.linkBotao {
+    text-decoration: none;
+}
+
 .botao {
     display: flex;
     justify-content: center;

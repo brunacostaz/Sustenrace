@@ -13,9 +13,9 @@ const Header = () => {
     return (
         <header>
             <div className="logo">
-                <a href='#home'>
+                <Link to={"/"}>
                     <img src= {`${process.env.PUBLIC_URL}/imagens/logo-sustenrace.png`} alt='Logo da Sustenrace'></img>
-                </a>
+                </Link>
                 <span>Sustenrace</span>
             </div>
             <nav className={`navbar ${ativo ? 'menuAtivo' : ''}`}>
@@ -26,7 +26,7 @@ const Header = () => {
                 </div>
                 <ul className="menuLinks">
                     <button className="fecharMenu" onClick={toggleMenu}>X</button>
-                    <li><Link to="/">Home</Link></li>
+                    {/* <li><Link to="/">Home</Link></li> */}
                     <li><a href="#formulaE">Fórmula E</a></li>
                     <li><a href="#impactos">Impactos da Corrida</a></li>
                     <li><a href="#sustenrace">Sustenrace</a></li>
@@ -34,7 +34,7 @@ const Header = () => {
                     <li><a href="#carro">Carro 3D</a></li>
                     <li><a href="#bpm">Batimentos Cardíacos</a></li>
                     <li><a href="#forum">Fórum</a></li>
-                    <li><Link to="/carros3D">Carros 3D</Link></li>
+                    {/* <li><Link to="/carros3D">Carros 3D</Link></li> */}
                 </ul>
             </nav>
         </header>
