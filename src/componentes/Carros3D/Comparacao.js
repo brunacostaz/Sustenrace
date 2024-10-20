@@ -2,14 +2,14 @@ import React, { useEffect } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import CarroCheio from '../../models/carro_cheio.glb';
-import CarroF1 from '../../models/formula1_cheio.glb';
+import CarroCheio from '../../models/carroFE.glb';
+import CarroF1 from '../../models/carroF1.glb';
 import './carros3D.css'; 
 import '../../variaveis.css';
 
 const Comparacao = () => {
   useEffect(() => {
-    const container = document.getElementById('containerComparacao'); // Corrigido aqui
+    const container = document.getElementById('containerComparacao'); 
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0xF2E2E2);
 

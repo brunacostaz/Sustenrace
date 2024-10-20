@@ -212,6 +212,13 @@ input[type="color"] {
 }
 
 /* Comparacao */
+#containerComparacao {
+    width: 100%;
+    height: 80vh; /* Ajuste a altura conforme necessário */
+    overflow: hidden; /* Esconde overflow */
+    position: relative;
+}
+  
 #containerComparacao {  
     position: relative;
 }

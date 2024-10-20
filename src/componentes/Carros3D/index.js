@@ -4,7 +4,7 @@ import Footer from '../Footer';
 import Header from '../Header';
 import ExplorarCarro from './ExplorarCarro';
 import Comparacao from './Comparacao';
-import Formulario from './formulario'; // Certifique-se de que o nome do arquivo está correto
+import Formulario from './formulario'; 
 import './carros3D.css';
 import '../../variaveis.css';
 const Carros3D = () => {
