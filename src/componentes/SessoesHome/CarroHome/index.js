@@ -2,12 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import CarroCheio from '../../../models/carro_cheio.glb';
-import CarroContorno from '../../../models/carro_contorno.glb';
+import CarroCheio from '../../../models/carroFE.glb';
+import CarroContorno from '../../../models/carroFEcon.glb';
 import './Carro.css';
 import '../../../variaveis.css';
 import 'font-awesome/css/font-awesome.min.css';
 import Botao from '../../elementos/Botao'
+import { Link } from 'react-router-dom'
 
 
 const Carro3d = () => {
@@ -238,7 +239,7 @@ const Carro3d = () => {
           />
         )}
       </div>
-      <Botao span="Explorar as opções" />
+      <Botao span="Explorar as opções" rota="/carros3D"></Botao>
     </div>
   );
 };
