@@ -21,15 +21,12 @@ const Formulario = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Dados do formulário:', formData);
-        // Aqui você pode adicionar lógica para enviar os dados
+        
     };
 
     return (
         <div className="form-container">
-            {/* Título fora do contêiner do formulário */}
             <h1>Compartilhe sua <span>ideia!</span></h1>
-            
-            {/* Contêiner separado para o formulário */}
             <div className="form-box"> 
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">

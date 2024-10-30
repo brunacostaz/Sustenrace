@@ -2,8 +2,6 @@ import React, { useEffect } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import CarroCheio from '../../models/carroFE.glb';
-import CarroF1 from '../../models/carroF1.glb';
 import './carros3D.css'; 
 import '../../variaveis.css';
 
@@ -48,6 +46,8 @@ const Comparacao = () => {
 
     const gltfLoader = new GLTFLoader();
     let carro1, carro2;
+    const CarroCheio = `${window.location.origin}/models/carroFE.glb`;
+    const CarroF1 = `${window.location.origin}/models/carroF1.glb`;
 
     function applyLightColor(car, color) {
       car.traverse((node) => {
@@ -62,7 +62,7 @@ const Comparacao = () => {
       carro1 = gltf.scene;
 
       if (isMobile) {
-        carro1.position.set(-1.5, -1, 0);
+        carro1.position.set(-2, -1, 0);
         carro1.scale.set(0.05, 0.05, 0.05);
       } else if (isTablet) {
         carro1.position.set(-3.5, -2, 0);

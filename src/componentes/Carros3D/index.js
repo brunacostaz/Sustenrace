@@ -1,5 +1,6 @@
-import React from 'react'; 
-import { NavLink, Route, Routes } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';  
+import { NavLink, Route, Routes, useNavigate } from 'react-router-dom';
+
 import Footer from '../Footer';
 import Header from '../Header';
 import ExplorarCarro from './ExplorarCarro';
@@ -7,7 +8,18 @@ import Comparacao from './Comparacao';
 import Formulario from './formulario'; 
 import './carros3D.css';
 import '../../variaveis.css';
+
 const Carros3D = () => {
+  const navigate = useNavigate();
+  const [isInitialLoad, setIsInitialLoad] = useState(true);
+
+  useEffect(() => {
+    if (isInitialLoad) {
+      navigate('explorar'); 
+      setIsInitialLoad(false); 
+    }
+  }, [isInitialLoad, navigate]);
+
   return (
     <section>
       <Header />
